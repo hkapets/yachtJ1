@@ -77,7 +77,9 @@
             <li class="our-yacht">
               <img src="" alt="" class="our-yacht-img" />
               <div class="our-yacht-container">
-                <h3 class="yacht-title">Arrow LUXURY YACHTS</h3>
+                <h3 class="yacht-title">
+                  Arrow <span class="luxury-text">LUXURY YACHTS</span>
+                </h3>
                 <ul class="yacht-parameters-list">
                   <li class="yacht-parameters-list-item">LENGTH</li>
                   <li class="yacht-parameters-list-item">BUILDER</li>
@@ -90,7 +92,10 @@
             <li class="our-yacht">
               <img src="" alt="" class="our-yacht-img" />
               <div class="our-yacht-container">
-                <h3 class="yacht-title"></h3>
+                <h3 class="yacht-title">
+                  BENETTI OASIS 40M BO122
+                  <span class="luxury-text">LUXURY YACHTS</span>
+                </h3>
                 <ul class="yacht-parameters-list">
                   <li class="yacht-parameters-list-item">LENGTH</li>
                   <li class="yacht-parameters-list-item">BUILDER</li>
@@ -103,7 +108,9 @@
             <li class="our-yacht">
               <img src="" alt="" class="our-yacht-img" />
               <div class="our-yacht-container">
-                <h3 class="yacht-title"></h3>
+                <h3 class="yacht-title">
+                  BELLE ANNA <span class="luxury-text">LUXURY YACHTS</span>
+                </h3>
                 <ul class="yacht-parameters-list">
                   <li class="yacht-parameters-list-item">LENGTH</li>
                   <li class="yacht-parameters-list-item">BUILDER</li>
@@ -121,61 +128,116 @@
         <div class="container advantages-section-container">
           <h2 class="advantages-title">Our Advantages</h2>
           <ol class="our-advantages-list">
-            <li class="our-advantages-list-item"></li>
-            <li class="our-advantages-list-item"></li>
-            <li class="our-advantages-list-item"></li>
-            <li class="our-advantages-list-item"></li>
+            <li class="our-advantages-list-item">
+              Swimming and water sports: try your hand at water skiing
+            </li>
+            <li class="our-advantages-list-item">
+              Fishing: try to catch your own dinner
+            </li>
+            <li class="our-advantages-list-item">
+              Sightseeing tours: take a shore or island tour, enjoy the views
+              and sunsets from the water
+            </li>
+            <li class="our-advantages-list-item">
+              Rest and relaxation: read a book or listen to music while enjoying
+              the outdoor atmosphere.
+            </li>
           </ol>
-          <img src="" alt="" class="advantages-img" />
+          <img src="" alt="" />
         </div>
       </section>
-      <section class="section rent-section">
-        <div class="container rent-section-container">
-          <img src="" alt="" class="rent-img" />
-          <h2 class="rent-title"></h2>
-          <form action="" class="rent-form">
-            <input type="text" class="rent-input" /><input
+      <section class="section rent-section" id="rent-section">
+        <div class="container rent-section-container" id="rent-section">
+          <img src="" alt="" />
+          <h2 class="rent-title">
+            Rest and relaxation: read a book or listen to music while enjoying
+            the outdoor atmosphere.
+          </h2>
+          <form class="rent-form">
+            <input
               type="text"
+              id="user-name"
+              name="user-name"
               class="rent-input"
-            /><input type="text" class="rent-input" />
+              placeholder="Full name"
+              pattern="[A-Za-zа-яА-ЯіІїЇєЄґҐ']+"
+              required
+            />
+            <input
+              type="email"
+              id="user-mail"
+              name="user-mail"
+              class="rent-input"
+              placeholder="Email"
+              required
+            />
+            <input
+              type="tel"
+              id="user-tel"
+              name="user-tel"
+              class="rent-input"
+              placeholder="Phone number"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              required
+            />
             <textarea
-              name=""
-              id=""
+              name="user-comment"
+              id="user-comment"
               cols="30"
               rows="10"
               class="form-comment"
+              placeholder="Comment"
+              required
             ></textarea>
-            <button class="send-btn" type="submit"></button>
+            <button class="send-btn" type="submit">Send</button>
           </form>
         </div>
       </section>
       <section class="section reviews-section">
         <div class="container reviews-section-container">
-          <h2 class="reviews-title"></h2>
-          <p class="reviews-text"></p>
+          <h2 class="reviews-title">
+            YachtJet take pride in providing the best possible service and
+            experience to our customers
+          </h2>
+          <p class="reviews-text">
+            Our customers have enjoyed unforgettable moments on our yachts.
+            Don't just take our word for it - read on to find out what they have
+            to say about their journey with us.
+          </p>
           <ul class="reviews-list">
             <li class="reviews-item">
-              <img src="" alt="" class="reviews-img" />
+              <img src="" alt="" />
               <div class="reviews-container">
-                <img src="" alt="" class="review-author-img" />
-                <h3 class="review-author"></h3>
-                <p class="review-text"></p>
+                <h3 class="review-author">John Wax</h3>
+                <p class="review-text">
+                  I rented the Lagoon 620 with my family for a week-long
+                  vacation and it was the best decision ever. The yacht was
+                  spacious, comfortable, and luxurious, and the crew took care
+                  of everything.
+                </p>
               </div>
             </li>
             <li class="reviews-item">
-              <img src="" alt="" class="reviews-img" />
+              <img src="" alt="" />
               <div class="reviews-container">
-                <img src="" alt="" class="review-author-img" />
-                <h3 class="review-author"></h3>
-                <p class="review-text"></p>
+                <h3 class="review-author">Victoria Romashenko</h3>
+                <p class="review-text">
+                  The Sunseeker Manhattan 66 was the perfect choice for our
+                  romantic getaway. The yacht was beautifully designed, with all
+                  the amenities we needed, and the crew was attentive and
+                  friendly.
+                </p>
               </div>
             </li>
             <li class="reviews-item">
-              <img src="" alt="" class="reviews-img" />
+              <img src="" alt="" />
               <div class="reviews-container">
-                <img src="" alt="" class="review-author-img" />
-                <h3 class="review-author"></h3>
-                <p class="review-text"></p>
+                <h3 class="review-author">Ihor Trachuk</h3>
+                <p class="review-text">
+                  The Azimut 80 was the most luxurious yacht I've ever been on.
+                  The cabins were spacious and elegant, and the outdoor areas
+                  were perfect for relaxing and entertaining. Worth every penny!
+                </p>
               </div>
             </li>
           </ul>
@@ -215,9 +277,12 @@
             </a>
           </li>
         </ul>
-        <p class="footer-slog"></p>
-        <p class="footer-date"></p>
-        <p class="footer-privacy-policy"></p>
+        <p class="footer-slog">
+          No matter which yacht you choose, our experienced crew will ensure
+          that your journey is smooth and enjoyable.
+        </p>
+        <p class="footer-date">2023. Yacht Adventures</p>
+        <a class="footer-privacy-policy">Privacy Police</a>
       </div>
     </footer>
   </body>
